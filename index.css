@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #E0E8FF;
+    font-family: 'Red Hat Display';
+}
+header {
+    width: 100%;
+    height: auto;
+}
+#desktop-bg{
+    width: 100%;
+    height: 45vh;
+}
+main {
+    background: #FFFFFF;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    height: 43.56rem;
+    width: 28.12rem;
+    left: 0px;
+    top: 0px;
+    border-radius: 1.25rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+#hero-img{
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 1.25rem;
+    border-top-left-radius: 1.25rem;
+}
+h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: #1F2E55;
+    margin-top: 3.5rem;
+}
+#card-info-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+}
+#info-text{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 1rem;
+    color: #717FA6;
+}
+#music-container{
+    height: 6.25rem;
+    width: 100%;
+    background: #F7F9FF;
+    border-radius: 0.7rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F2E55;
+}
+#plan-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+#plan-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #717FA6;
+}
+#music-icon{
+    margin-left: 1.5rem;
+}
+#change{
+    margin-left: auto;
+    margin-right: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #382AE1;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+#change:hover{
+    color: #5246dd;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+#submit{
+    width: 100%;
+    background: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: all 500ms;
+}
+#submit:hover{
+    background: #5448da;
+    transform: translateY(-0.5rem);
+}
+#cancel{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1rem;
+    line-height: 20px;
+    color: #717FA6;
+    text-align: center;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: all 500ms;
+}
+#cancel:hover{
+    color: #485068;
+}
+@media screen and (max-width: 700px) {
+    header{
+        display: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    main{
+        width: 100%;
+        
+    }
+    
+}
